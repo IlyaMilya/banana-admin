@@ -1,6 +1,10 @@
 @import "../../colors.module.css";
 @import "../../fonts.module.css";
 
+
+
+
+
 h3 {
   font-family: Open Sans;
   font-style: normal;
@@ -17,6 +21,9 @@ h3 {
   flex-direction: column;
   align-items: center;
   width: 600px;
+  margin-left: 325px;
+  
+
 }
 
 .infoList {

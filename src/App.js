@@ -7,6 +7,7 @@ import {
 import styles from './App.module.css';
 import HomePage from './Pages/HomePage';
 import SettingsPage from './Pages/Settings';
+import ApplicationReview from './Components/ApplicationReviewCard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/settings" component={SettingsPage} />
+            <Route exact path="/application-review" component={ApplicationReview} />
           </Switch>
         </div>
       </Router>
